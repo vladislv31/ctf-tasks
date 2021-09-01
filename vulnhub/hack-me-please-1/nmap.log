@@ -1,0 +1,21 @@
+# Nmap 7.80 scan initiated Wed Sep  1 13:07:41 2021 as: nmap -sC -sV -oN nmap.log 192.168.2.104
+Nmap scan report for 192.168.2.104
+Host is up (0.00033s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Welcome to the land of pwnland
+3306/tcp open  nagios-nsca Nagios NSCA
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.25-0ubuntu0.20.04.1
+|   Thread ID: 10
+|   Capabilities flags: 65535
+|   Some Capabilities: ConnectWithDatabase, Support41Auth, ODBCClient, DontAllowDatabaseTableColumn, IgnoreSpaceBeforeParenthesis, SwitchToSSLAfterHandshake, SupportsCompression, SupportsTransactions, LongColumnFlag, Speaks41ProtocolNew, SupportsLoadDataLocal, InteractiveClient, Speaks41ProtocolOld, LongPassword, FoundRows, IgnoreSigpipes, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: uhXw\x1Ba:LcKi=<W~ybm\x1E\x1E
+|_  Auth Plugin Name: caching_sha2_password
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep  1 13:07:47 2021 -- 1 IP address (1 host up) scanned in 6.82 seconds
