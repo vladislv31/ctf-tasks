@@ -1,0 +1,3 @@
+Remember to use --batch, 
+otherwise the passphrase options will be ignored when you decrypt the gpg file
+You know the pa[ssh]phrase
