@@ -1,0 +1,1 @@
+Attention, please encrypt always your password using the warzone-encrypt.jar
