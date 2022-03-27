@@ -1,0 +1,8 @@
+username:
+semaphore
+
+password:
+signalperson
+
+token:
+833ad488464de1a27d512f104b639258e77901f14eab706163063d34054a7b26
